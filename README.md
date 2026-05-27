@@ -54,10 +54,10 @@ lapki/                        # корень сайта (DocumentRoot)
 ## Запуск локально
 
 **Вариант 1 — XAMPP / OpenServer / хостинг (Apache + PHP + MySQL):**
-1. Импортируйте database.sql в phpMyAdmin (создаст БД lapki).
-2. При необходимости поправьте логин/пароль БД в src/settings.php.
-3. Поместите всё содержимое папки проекта в корневую папку сайта (htdocs, public_html или www — название зависит от хостинга).
-4. Откройте сайт в браузере.
+1. Импортировать database.sql в phpMyAdmin (создаст БД lapki).
+2. При необходимости поправить логин/пароль БД в src/settings.php.
+3. Поместить всё содержимое папки проекта в корневую папку сайта (htdocs, public_html или www — название зависит от хостинга).
+4. Открыть сайт в браузере.
 
 **Вариант 2 — встроенный сервер PHP (быстрая проверка):**
 ```bash
@@ -65,7 +65,7 @@ lapki/                        # корень сайта (DocumentRoot)
 php -S localhost:8000 router.php
 ```
 Откройте http://localhost:8000
-
+Сейчас сайт доступен по ссылке:https://kashafutdinova-lapki.great-site.net
 ## Безопасность
 
 Папки src/ и templates/ содержат .htaccess с правилом Require all denied —
