@@ -11,7 +11,7 @@
         <a href="/pets"             class="<?= $species === 'all' ? 'active' : '' ?>">Все</a>
         <a href="/pets?species=cat" class="<?= $species === 'cat' ? 'active' : '' ?>">🐱 Кошки</a>
         <a href="/pets?species=dog" class="<?= $species === 'dog' ? 'active' : '' ?>">🐶 Собаки</a>
-        <a href="/pets?species=other" class="<?= $species === 'other' ? 'active' : '' ?>">🦜 Другие</a>
+        <a href="/pets?species=other" class="<?= $species === 'other' ? 'active' : '' ?>">🐰 Другие</a>
     </div>
 </div>
 
